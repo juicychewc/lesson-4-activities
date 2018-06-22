@@ -1,6 +1,13 @@
-var number = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+var number = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9];
 
-var x = $("btn").onclick()
+$(".btn").onclick() 
+    pressed = $(this).attr("value");
+
+
+
+
+ console.log (x)
+
 
 
 
@@ -37,8 +44,13 @@ power(x^y)
 }
 
 function equal() {
-    if ($("#button-divide").onclick(divide()));
-    if ($("#button-plus").onclick(add()));
-    if ($("#button-minus").onclick(()));
-    if ($("#button-multiply").onclick(()));
+
 }
+
+// OPERATOR
+
+if ($("#button-divide").on("click", divide()));
+if ($("#button-plus").on("click",add()));
+if ($("#button-minus").on("click", subtract()));
+if ($("#button-multiply").on("click", multiply()));
+if ($("#button-power").on("click", power()));
