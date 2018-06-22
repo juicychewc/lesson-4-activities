@@ -1,51 +1,26 @@
 var number = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9];
 
-$(".btn").onclick() 
-    pressed = $(this).attr("value");
-
-
-
-
- console.log (x)
-
-
-
-
-function add(x, y) {
-add(x+y)
+var x = $(".number").on("click", function() {
 }
 
 
-
-
+/*function add(x, y) {
+add(x+y)
+}
 function subtract(x, y) {
 subtract(x-y)
 }
-
-
-
-
 function multiply(x, y) {
 multiply(x*y)
 }
-
-
-
-
 function divide(x, y) {
 divide(x/y)
 }
-
-
-
-
 function power(x, y) {
 power(x^y)
 }
-
 function equal() {
-
-}
+}*/
 
 // OPERATOR
 
