@@ -80,11 +80,19 @@
 
       // 3. Then give each "letterBtn" the following classes: "letter-button" "letter" "letter-button-color".
 
+<<<<<<< HEAD
       letterBtn.addClass("letter-button letter letter-button-color");
 
       // 4. Then give each "letterBtn" an attribute called "data-letter", with a value eqaual to "letters[i]"
 
       letterBtn.attr(data-letter, letters[i]);
+=======
+       letterBtn.text.addclass("letter-button letter letter-button-color");
+
+      // 4. Then give each "letterBtn" an attribute called "data-letter", with a value eqaual to "letters[i]"
+
+       letterBtn.text.attr("data-letter", letters[i]);
+>>>>>>> 36489d47866c7f45d8f0f5f18403b1f783c8903f
 
       // 5. Then give each "letterBtn" a text equal to "letters[i]".
 
@@ -92,7 +100,7 @@
 
       // 6. Finally, append each "letterBtn" to the "#buttons" div (provided).
 
-      $("letterBtn").append("#buttons,div");
+      $("#buttons").append(letterBtn);
 
       // Be sure to test that your code works for this major task, before proceeding to the next one!
 
@@ -107,7 +115,11 @@
 
       // 8. Create a variable called "fridgeMagnet" and set the variable equal to a new div.
 
-      // 9. Give each "fridgeMagnet" the following classes: "letter fridge-color".
+          var fridgeMagnet = ("newDiv")
+
+      // 9. Give each "fridgeMagnet" the following classes: "letter fridge-color"
+
+        $("newDiv")
 
       // 10. Then chain the following code onto the "fridgeMagnet" variable: .text($(this).attr("data-letter"))
 
